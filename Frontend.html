@@ -1,0 +1,46 @@
+
+<html>
+<head>
+<title>Learning Dashboard</title>
+    <style>
+        body {
+    font-family:sans-serif;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background: white;
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: blue;
+ color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+    </style>
+</head>
+<body>
+
+<div class="card">
+        <h1 id="title">Welcome</h1>
+    <p id="description">Loading...</p>
+        <button onclick="updateContent()">Update Status</button>
+ </div>
+
+    <script src="Frontend.js"></script>
+</body>
+</html>
